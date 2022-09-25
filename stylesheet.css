@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Mythias;
+    src: url(./mythias/Mythias.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, #c9ffe5, #008080);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+}
+
+#sketchpad{
+    display: grid; 
+    width: 1000px;
+    height: 650px;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 35px;
+    background-color: white;
+    
+}
+
+.footer {
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+}
+
+.pad-container {
+    display: flex;
+    width: 1200px;
+    height: 850px;
+    border-width: 4px;
+    border-color: red;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    background-color: red;
+    box-shadow: 5px 10px;
+    margin: 5px;
+}
+
+#range.slider {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+p {
+    position: absolute;
+    left: 100px;
+    top: 355px;
+}
+
+h1 {
+    position: absolute;
+    top: 80px;
+    color: yellow;
+    font-family: "Mythias";
+    font-size: 55px;
+}
+
+span {
+    margin: 5px;
+    padding: 5px;
+}
+
+#sketchpad.sketchpad div{
+    display: grid; 
+    border-color: black;
+   
+}
+
+#sketchpad.sketchpad div:hover {
+    background-color: black;  
+}
+
+
+.colorDiv {
+    background-color: black; 
+}
