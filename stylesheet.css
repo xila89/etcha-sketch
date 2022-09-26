@@ -12,19 +12,19 @@ body {
     background-image: linear-gradient(to bottom, #c9ffe5, #008080);
     background-repeat: no-repeat;
     height: 100vh;
-    
+
 
 }
 
-#sketchpad{
-    display: grid; 
+#sketchpad {
+    display: grid;
     width: 1000px;
     height: 650px;
     border-width: 2px;
     border-style: ridge;
     border-radius: 35px;
     background-color: white;
-    
+
 }
 
 .footer {
@@ -78,17 +78,35 @@ span {
     padding: 5px;
 }
 
-#sketchpad.sketchpad div{
-    display: grid; 
+#sketchpad.sketchpad div {
+    display: grid;
     border-color: black;
-   
+
 }
 
 #sketchpad.sketchpad div:hover {
-    background-color: black;  
+    background-color: black;
 }
 
 
 .colorDiv {
-    background-color: black; 
+    background-color: black;
+}
+
+#reset button {
+    position: absolute;
+    left: 125px;
+    top: 500px;
+    background-color: yellow;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: black;
+}
+
+#reset button:hover {
+    background-color: red;
+}
+
+a {
+    color: black;
 }
